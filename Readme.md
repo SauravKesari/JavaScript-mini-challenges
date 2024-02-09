@@ -1,0 +1,1 @@
+### let's get started with JS mini Proect to recall all the concepts of Js.
