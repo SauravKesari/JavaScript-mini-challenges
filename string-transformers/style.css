@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding: 0.5rem;
+}
+.container{
+    margin: 2rem;
+    padding: 1rem;
+}
+input{
+    padding: 8px 12px;
+    width: 100%;
+    outline: none;
+    margin-bottom: 2rem;
+}
+.result div {
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    background-color: beige;
+    position: relative;
+}
+.result div label {
+    position: absolute;
+    color: white;
+    padding: 5px;
+    background-color: black;
+    top: -1.7rem;
+
+}
+span{
+    color: black;
+    font-size: 1.2rem;
+}

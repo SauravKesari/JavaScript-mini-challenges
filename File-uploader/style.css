@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 50px;
+    color: black;
+    font-weight: bold;
+    background-color: beige;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.card {
+    height: 400px;
+    width: 400px;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow:5px 10px 5px 5px #ebe5e5;
+
+}
+.card h2{
+    text-align: center;
+    margin: 1rem;
+}
+.upload {
+    text-align: center;
+    margin: 1.5rem;
+    padding: 2.5rem;
+    border: 3px dashed rgb(94, 14, 221);
+}
+p{
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.selected {
+    display: flex;
+    padding: 1rem;
+    margin: 1.5rem;
+    background-color:  rgb(94, 14, 221);
+    color: white;
+}
+.result {
+    text-align: center;
+}
